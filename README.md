@@ -5,32 +5,33 @@
 
 ---
 
-## 📂 Module Directory
+## Module Directory -->
 
-### [Module 1: Navigation and File Management](./File Management)
-* **Focus**: OS Architecture (Kernel vs. User Space), Directory Hierarchies, and Basic CLI.
-* **Key Skills**: Navigating paths, viewing hidden files, and standard I/O redirection.
+## - Course Modules -
 
-### [Module 2: Users, Groups, and Permissions](./Module_2_Permissions.md)
-* **Focus**: Identity management and security.
-* **Key Skills**: Windows ACLs (DACL/SACL), Linux 10-bit permission strings, and Privilege Escalation (Sudo/UAC).
+### [File Management](./File%20Management/)
+* **Core Topics**: OS Architecture, Navigation, Basic Commands, and I/O Redirection.
+* **Key Skills**: `cd`, `ls`, `mkdir`, and mastering the 3 Standard Streams (stdin, stdout, stderr).
 
-### [Module 3: Software Management](./Module_3_Software.md)
-* **Focus**: How software is packaged, installed, and managed.
-* **Key Skills**: Package Managers (APT/Chocolatey), DLL troubleshooting (WinSxS), and Shared Libraries.
+### [UsersAndPermissions](./UsersAndPermissions/)
+* **Core Topics**: User Identity, Group Management, and Access Control Lists (ACLs).
+* **Key Skills**: Windows `icacls`, Linux `chmod`/`chown`, and the Principle of Least Privilege.
 
-### [Module 4: File Systems and Disk Management](./Module_4_Filesystems.md)
-* **Focus**: Physical and logical storage.
-* **Key Skills**: Partition tables (MBR/GPT), Journaling, Formatting, and Mounting drives in Linux.
+### [Package and Software Management](./Package%20and%20Software%20Management.../)
+* **Core Topics**: Package Managers, Dependencies, Shared Libraries, and Drivers.
+* **Key Skills**: `apt` (Linux), Chocolatey (Windows), and troubleshooting "DLL Hell."
 
-### [Module 5: Process Management](./Module_5_Processes.md)
-* **Focus**: Managing active tasks and system resources.
-* **Key Skills**: Task Manager vs. Top, Process Signals (Kill -9 vs -15), and identifying Memory Leaks.
+### [File System and Disk Management](./File%20System%20and%20Disk%20Management/)
+* **Core Topics**: Partitioning (MBR/GPT), Formatting, Mounting, and Virtual RAM.
+* **Key Skills**: `lsblk`, `mount`, `fdisk`, and managing NTFS/ext4/FAT32 systems.
 
-### [Module 6: Remote Access and OS Deployment](./Module_6_Deployment.md)
-* **Focus**: Managing fleets of computers and remote troubleshooting.
-* **Key Skills**: SSH/RDP, Imaging (Sysprep), Virtualization, and Network Booting (PXE).
+### [Process Management](./Process%20Management/)
+* **Core Topics**: Task monitoring, PID tracking, and System Signals.
+* **Key Skills**: Task Manager, `top`, `ps aux`, and the `kill` command (SIGTERM vs. SIGKILL).
 
+### [OS in practice](./OS%20in%20practice/)
+* **Core Topics**: Remote Access (SSH/RDP), Deployment (Imaging/PXE), and Troubleshooting.
+* **Key Skills**: `ssh`, `scp`, PowerShell Remoting, and analyzing system logs.
 ---
 
 ## 🛠️ Master Toolset Summary
