@@ -7,7 +7,7 @@
 
 ## 📂 Module Directory
 
-### [Module 1: Navigation and File Management](./Module_1_Navigation.md)
+### [Module 1: Navigation and File Management](./File Management)
 * **Focus**: OS Architecture (Kernel vs. User Space), Directory Hierarchies, and Basic CLI.
 * **Key Skills**: Navigating paths, viewing hidden files, and standard I/O redirection.
 
